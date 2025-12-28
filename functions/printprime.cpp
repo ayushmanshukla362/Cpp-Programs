@@ -21,5 +21,5 @@ int main() {
     int N;
     cin >> N;
     printPrimes(N);
-    return 0;
+    return 0;  
 }
