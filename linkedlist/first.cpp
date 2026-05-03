@@ -4,10 +4,13 @@ using namespace std;
 class Node {
     public:
     int data;
+ //pointer that wil hold the memory address of the next node in the sequence
     Node* next;
     //constructor to initialize a new node with data
     Node(int newData){
+//this assigns the value passed to into  the constructor
         this->data = newData;
+//this initialized the next pointer to null
         this->next = nullptr;
     }
 };
