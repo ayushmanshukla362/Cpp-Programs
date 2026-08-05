@@ -2,7 +2,7 @@
 using namespace std;
 int summation ( int i){
     if (i==0)
-    return;
+    return 0;
     return i+summation(i-1);
 }
 int main(){
